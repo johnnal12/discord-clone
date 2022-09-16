@@ -16,7 +16,7 @@ function Header() {
             </a>
             <div className="hidden lg:flex space-x-8 text-blue-500 flex items-center text-white">
                 <a href="/download" className="link">Download</a>
-                <a href="/" className="link">Nitro</a>
+                <a href="/nitro" className="link">Nitro</a>
                 <a href="/" className="link"> Safety</a>
                 <a href="/" className="link">Support</a>
                 <a href="/" className="link">Blog</a>

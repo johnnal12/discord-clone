@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import UserLogin from "./components/pages/UserLogin";
 import UserRegister from "./components/pages/UserRegister";
 import DownloadPage from "./components/pages/DownloadPage";
+import NitroPage from "./components/pages/NitroPage";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <Route exact path="/login" element={<UserLogin />} />
                 <Route exact path="/register" element={<UserRegister />} />
                 <Route exact path="/download" element={<DownloadPage />} />
+                <Route exact path="/nitro" element={<NitroPage />} />
             </Routes>
         </Router>
 
