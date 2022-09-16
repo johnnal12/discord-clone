@@ -14,6 +14,7 @@ const app_id = process.env.STREAM_APP_ID;
 
 const signup = async (req, res) => {
     try {
+        console.log(api_key, api_secret, app_id);
         const {fullName, username, password, phoneNumber} = req.body;
 
         const userId = crypto.randomBytes(16).toString("hex"); //set userId to  random byte
